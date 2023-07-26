@@ -1,0 +1,69 @@
+.modal-content {
+  height: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.pin-icon {
+  margin-right: 16px;
+}
+
+.pin-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+
+.location-info h2 {
+  margin-bottom: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+.divider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.149);
+  margin-bottom: 16px;
+}
+
+.bottom-content {
+  margin-top: 16px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.images img {
+  max-width: calc(
+    33.33% - 8px
+  ); /* Divide the width by 3 and subtract the gap */
+  height: auto;
+}
+
+.header-button {
+  margin-right: 30px;
+}
+
+.sub-text {
+  font-size: 12px;
+  color: gray;
+  font-family: "Kanit", sans-serif;
+}
